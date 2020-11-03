@@ -121,6 +121,6 @@ def create_disciplina():
 
 
 if __name__ == '__main__':
-    app.run(host='localhost', port=8081, debug=True)
+    app.run(host='localhost', port=80, debug=True)
     
 #curl --header "Content-Type: application/json" --request POST --data '{"codigo":"BLU3333","nome":"DisciplinaX","objetivos":"objetivoX","conteudo programatico":"conteudoX","bibliografia basica":"Livro1","bibliografia complementar":"Livro2"}' http://localhost:8081/disciplinas    
